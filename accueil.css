@@ -1,0 +1,9 @@
+li.display-3 {list-style-image: url(img/baseline_apps_black_18dp.png);text-indent: -30px;}
+p.lead {text-indent: -30px; font-size: 160%; text-align: left;}
+li.nourriture {list-style-image: url(img/baseline_fastfood_black_18dp.png);margin-left: 20px;}
+li.sport {list-style-image: url(img/baseline_sports_black_18dp.png); margin-left: 20px;}
+li.sommeil {list-style-image: url(img/baseline_timeline_black_18dp.png); margin-left: 20px; }
+li.photo {list-style-image: url(img/baseline_add_a_photo_black_18dp.png); margin-left: 20px;}
+#menu {display: flex;
+    justify-content: center;}
+
