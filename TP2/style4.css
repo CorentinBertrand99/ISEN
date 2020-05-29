@@ -1,0 +1,21 @@
+body{ font-family: "Duru Sans", Verdana, sans-serif; background-color: #D2DC9D; background-image: url(images/blackgoose.png); background-repeat: no-repeat; background-position: 50% 75%; background-size: 30%;} 
+#div1 {background-image: url(images/purpledot.png), url(images/purpledot.png), url(images/gooseshadow.png); background-repeat: repeat-y, repeat-y, no-repeat; background-position: right, left, 87% 100%;}
+#info {font-size: 1em; text-align: center} /* 1 x 16 = 16 px */
+h1 { color: #993399; font-family: 'Marko One', serif; text-shadow: .1em .1em #D3D3D3; font-size: 1.5em; } /* 1.5 x 16 = 24 px */
+p { color: #808080;  font-style: italic;}
+#appetizers { text-align: center; font-size: 1em; list-style-type: none;} 
+h2 {color: #CC6600; text-transform: uppercase; letter-spacing: 0.5em; font-size: 1em; text-align: center; font-size: 1em;}
+ul {color : white;}
+a {text-decoration: none; text-decoration: underline;}
+a:visited {color: #937393;}
+a:link {color: #993399;}
+a:hover {color: #C700F2; background-color: #FFC0CB;}
+dt { color: #A0522D; font-weight: bold;}
+span.price {font-family : "Geogia"; font-style: italic; color: #808080;}
+span.label {font-style: normal;}
+strong {color: #FF6347; font-style: italic;}
+p.warning {color :#FF6347;}
+li.c1 {list-style-type : lower-roman; color: initial;}
+li.c2 { list-style-type: circle; color: initial;}
+li.c3 { list-style: inside; color: initial;}
+li.c4 { font-size: xx-large ; list-style-image: url(images/bull.PNG); color: initial; } 
