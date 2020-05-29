@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> Titre </title>
+    </head>
+    <body>
+        <a href="file:///C:/Users/Utilisateur/Desktop/Web%20Statique/testvscode/textlistforms.html">Text&amp;Listes&amp;Formulaires</a>|
+        <a href="file:///C:/Users/Utilisateur/Desktop/Web%20Statique/testvscode/tables.html">Tableaux</a>|
+        <a href="file:///C:/Users/Utilisateur/Desktop/Web%20Statique/testvscode/medias.html">Médias</a>
+        <br></br><hr>
+        <ul>
+            <li><u>Etudiant</u></li>
+            <li><u>Enseignant</u></li>
+            <li><u>Abbréviations</u></li>
+        </ul>
+        <hr><br></br>
+        <ol>
+            <h2><b><li>Etudiant</li></b></h2><br>
+            <form action="file:///C:/Users/Utilisateur/Desktop/Web%20Statique/testvscode/textlistforms.html" method="get">
+                Prénom :
+                <input type="text" name="fname">
+                Nom :
+                <input type="text" name="lname"><br>
+                Année d'étude :
+                <input type="radio" name="year" value="1A"> 1A  <input type="radio" name="year" value="2A"> 2A  <br>
+                Remarques :<br>
+                <textarea name="remarques" id="rmqs" cols="55" rows="5"></textarea><br>
+                <input type="submit" value="Valider">
+            </form>
+            <br>
+            <hr>
+            <br>
+            <h2><b><li>Enseignant</li></b></h2><br>
+            <form action="file:///C:/Users/Utilisateur/Desktop/Web%20Statique/testvscode/medias.html" method="get">
+                Prénom :
+                <input type="text" name="fname"><br>
+                Nom :   
+                <input type="text" name="lname"><br>
+                Site :<br>
+                <select name= "place">
+                    <option>Brest</option>
+                    <option>Nantes</option>
+                    <option>Rennes</option>
+                </select><br>
+                Mot de passe :<br>
+                <input type="password">
+                <input type="submit" value="Valider">
+            </form>
+            <br>
+            <hr>
+            <br>
+            <h2><b><li>Abbréviations</li></b></h2><br>
+            <dl>
+                <dt><b>ISEN</b></dt>
+                <dd>Institut Supérieur de l'Electonique et du Numérique</dd><br><br>
+                <dt><b>HTML</b></dt>
+                <dd>HyperText Markup Language</dd><br>
+            </dl>
+        </ol>
+
+    </body>
+
+</html>
